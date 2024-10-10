@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f8fa; /* Softer background */
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px; /* Smoother corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Softer shadow */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #2c3e50; /* Darker text for better readability */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0; /* Lighter border color */
+}
+
+th {
+    background-color: #ecf0f1; /* Light gray */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Subtle hover effect */
+}
+
+tbody {
+    display: block;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+button {
+    background-color: #3498db; /* Calmer blue */
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker hover state */
+}
+
+#sendSmsButton {
+    background-color: #e74c3c; /* More muted red */
+}
+
+#sendSmsButton:hover {
+    background-color: #c0392b; /* Darker hover state */
+}
+
+.upload-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#documentInput {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.low-attendance {
+    background-color: #fdebd0; /* Warm, light orange for low attendance */
+    color: #d35400; /* Stronger orange text for emphasis */
+}
